@@ -5,10 +5,7 @@
   "main": "index.js",
   "gypfile": true,
   "scripts": {
-    "test": "node index.js",
-    "build:dev": "node-gyp build --debug",
-    "rebuild:dev": "node-gyp rebuild --debug",
-    "clean": "node-gyp clean"
+    "configure": "node-gyp configure"
   },
   "repository": {
     "type": "git",
@@ -23,6 +20,7 @@
   "homepage": "https://github.com/Gencord/VoiceModule#readme",
   "dependencies": {
     "bindings": "^1.5.0",
+    "global": "^4.4.0",
     "node-addon-api": "^3.1.0"
   },
   "devDependencies": {
